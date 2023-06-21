@@ -83,7 +83,7 @@ if ( ! class_exists( 'plugin_name' ) ) {
 		 */
 		public function includes() {
             // Example
-			require_once __DIR__ . '/includes/loader.php';
+
 
 			// Load custom functions and hooks
 			require_once __DIR__ . '/includes/includes.php';
@@ -126,3 +126,7 @@ if ( ! class_exists( 'plugin_name' ) ) {
 
 	$plugin_name = new plugin_name();
 }
+
+
+
+?>
